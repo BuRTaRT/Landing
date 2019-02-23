@@ -1,0 +1,26 @@
+header.header
+  .header-top
+    .container
+      .contacts
+        .contacts-wrap
+         a.contact(href="#")
+          i.fa.fa-mobile-alt.contact-icon
+          span.contact-text 093777777
+         
+         a.contact(href="#")
+          i.fa.fa-envelope.contact-icon
+          span.contact-text someMail@gmail.com
+         
+         a.facebook-icon.contact-icon
+          i.fab.fa-facebook
+  .container
+    .header-bottom
+     .logo: img.logo-picture(src="images/logo.png" alt="logo")
+     nav.nav
+      -var navItems=["Home","About us","Our approach","Out work"]
+      each item in navItems
+       if item === "Home"
+         a.nav-link.nav-link__active=item
+       else
+         a.nav-link(href="#")=item 
+     a.button.header-button.button__red(href="#") free consultation 

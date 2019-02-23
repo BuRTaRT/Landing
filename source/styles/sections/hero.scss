@@ -1,0 +1,36 @@
+.hero {
+  padding: 174px 0;
+  background: url(images/hero-bg.jpg) no-repeat;
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  &-about,
+  &-title {
+    text-align: center;
+  }
+  &-about {
+    font-family: $ff-main-bold;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  &-title {
+    font-size: 1.2rem;
+    font-family: $ff-main-light;
+    margin-top: 0;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    
+  }
+  &-button{
+    color:white;
+    margin: 0 auto;
+    padding: 21px 41px;
+    border-radius: 8px;
+    font-weight:lighter;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+}

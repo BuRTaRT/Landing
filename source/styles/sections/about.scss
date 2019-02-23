@@ -1,0 +1,75 @@
+.about {
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+.title {
+  font-family: $ff-main-bold;
+  text-align: center;
+  margin: 0;
+  &-text {
+    text-align: center;
+    font-family: $ff-main;
+    font-size: 1.1rem;
+  }
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  margin: 30px 10px 0px 10px;
+  width: 260px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &-icon__like {
+    height: 60px;
+    width: 60px;
+    background: url(images/icons/like.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin:0 auto;
+  }
+  &-icon__book {
+    height: 60px;
+    width: 60px;
+    background: url(images/icons/book.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+  }
+  &-icon__message {
+    height: 60px;
+    width: 60px;
+    background: url(images/icons/message.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin:0 auto;
+  }
+  &-name {
+    margin: 10px 0;
+    font-size: 1.25rem;
+  }
+  &-text {
+    margin: 0;
+  }
+  &-name,
+  &-text {
+    text-align: center;
+  }
+}
+.title-decor-line {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #424242;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-20px);
+  }
+}
