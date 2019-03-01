@@ -34,7 +34,7 @@
   border-radius: 3px;
 }
 .header-bottom {
-  margin:10px 0;
+  margin:30px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -75,5 +75,15 @@
   }
 }
 .button {
-  font-family: $ff-main-bold;
+  font-family: $ff-main;
+}
+@media (max-width: 900px){
+  .header-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav{
+    margin-right: 0px;
+  }
 }

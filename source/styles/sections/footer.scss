@@ -1,0 +1,66 @@
+.footer {
+  background-color: #252525;
+  padding: 50px 0;
+  color: white;
+  &-header {
+    text-align: center;
+    font-size: 24px;
+    font-family: $ff-main;
+  }
+}
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  & .contact {
+    color: white;
+    font-size: 22px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    padding: 10px 0px;
+    width: 50px;
+    margin: 0 10px;
+    text-align: center;
+    &:hover {
+      border: 1px solid #DE2B24;
+      transition: 0.3s;
+    }
+  }
+}
+.footer-suscribe-text {
+  padding-top: 35px;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: $ff-main-light;
+}
+
+.footer-form{
+  width: 67%;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.footer-input {
+  width: 100%;
+  padding: 20px;
+  font-size: 0.875rem;
+  border: 0;
+  color: #cecece;
+  background: #515151;
+}
+.button-footer{
+  margin-top: 25px;
+  padding: 15px 37px;
+  border: 2px solid #515151;
+  border-radius: 2px;
+  background-color: transparent;
+}
+.footer-bottom{
+  padding: 20px 0;
+  background-color: #515151;
+}
+.author{
+  text-align: center;
+  color: white;
+}

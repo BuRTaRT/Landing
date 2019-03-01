@@ -3,12 +3,12 @@
   padding: 10px 22px 7px;
   border-radius: 3px;
   text-decoration: none;
-  color: black;
+  color: white;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 0.9rem;
   &__red {
-    background-color: red;
+    background-color: #de2b24;
     &:hover {
       transition: 0.3s;
       background: lighten(red, 20%)
