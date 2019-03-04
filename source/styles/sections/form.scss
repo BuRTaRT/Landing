@@ -47,9 +47,10 @@
 .input{
   display: block;
   width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 2px;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius:3px;
+  border:1px solid gray;
 }
 .input-text{
   font-family:$ff-main-light;

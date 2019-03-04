@@ -73,6 +73,9 @@
     left: -15px;
     top: 9px;
   }
+  &:last-child{
+    margin-right: 0px;
+  }
 }
 .button {
   font-family: $ff-main;
@@ -85,5 +88,9 @@
   }
   .nav{
     margin-right: 0px;
+    margin-top: 20px;
+  }
+  .header-button{
+    margin-top: 20px;
   }
 }

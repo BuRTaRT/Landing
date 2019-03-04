@@ -69,3 +69,8 @@
     transform: translateX(-20px);
   }
 }
+@media (max-width: 720px){
+  .services{
+    flex-direction: column;
+  }
+}
